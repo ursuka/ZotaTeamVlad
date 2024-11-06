@@ -1,0 +1,62 @@
+.foodList {
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+
+.foodSection h3 {
+    text-align: left;
+    font-size: xx-large;
+    padding-left: 3%;
+    font-weight: bold;
+    color: white;
+}
+
+.foodSection hr {
+    color: gray;
+}
+
+.foodCard {
+  color: white;
+  width: 20%;
+  height: 350px;
+  background-color: rgb(30, 27, 27);
+  margin: 2px;
+  padding: 3px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid transparent;
+}
+
+.foodCard button {
+  width: 100%;
+  color: white;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px #635510 solid;
+  height: 15%;
+}
+
+.foodCard p {
+  height: 5%;
+}
+
+.foodCard img {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+}
+
+.foodCard button:hover {
+  background: #ffd806;
+  color: black;
+  transition: 0.5s;
+}
+
+.foodCard:hover {
+  border: 2px solid #ffd806;
+}
