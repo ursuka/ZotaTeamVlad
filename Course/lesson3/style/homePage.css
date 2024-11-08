@@ -1,0 +1,9 @@
+#promo {
+    margin-top: 20px;
+    background: center no-repeat url('../assets/promo.jpg');
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
